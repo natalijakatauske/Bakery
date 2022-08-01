@@ -1,6 +1,7 @@
 body {
     background-image: url('Ebene 1.psb.png');
     background-repeat: no-repeat;
+    background-size: 100%;
     /* background-size: 1600px 900px; */
     height: fit-content;
 }

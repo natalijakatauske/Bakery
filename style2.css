@@ -1,0 +1,71 @@
+body {
+    background-image: url('Ebene 10.psb.png');
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-side {
+    text-align: center;
+    justify-items: center;
+    width: 90%;
+    /* margin: 20px 40px; */
+    /* padding: 20px 40px; */
+}
+
+body > div > p:nth-child(2) {
+    padding-bottom: 40px;
+}
+
+body > div > p:nth-child(3) {
+    padding-bottom: 20px;
+    max-width: 70%;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    width: fit-content;
+}
+
+.chef {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:first-child {
+    /* margin-left: 300px; */
+    /* padding-left: 100px; */
+}
+
+.box:last-child {
+    /* margin-right: 300px; */
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+div:nth-child(6) {
+    padding-top: 40px;
+}
+
+.right-side {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 50px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.right-side > img {
+    width: 200px;
+    height: 200px;
+}
